@@ -41,6 +41,5 @@ def send_mail(EmailAddress,Message):
 #Main Script
 for EmailAddress in Addresses:
     send_mail(EmailAddress,Message)
-    print (EmailAddress,Message)
 
 
