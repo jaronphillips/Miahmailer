@@ -18,6 +18,7 @@ Addresses=Addresses.read().splitlines()
 Message=open(Message, "r")
 Message=Message.read()
 
+#Email Function
 def send_mail(EmailAddress,Message):
     server = smtplib.SMTP(serverandport)
     from_addr = user
